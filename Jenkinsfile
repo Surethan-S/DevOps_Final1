@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "surethan37/final_task"
+        IMAGE_NAME = "surethan37/final_task1"
     }
 
     stages {
@@ -22,8 +22,8 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                 sh '''
-                docker build -t task7 .
-                docker tag task7 $IMAGE_NAME
+                docker build -t task52 .
+                docker tag task52 $IMAGE_NAME
                 '''
             }
         }
