@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: test
-        image: surethan37/final_task
+        image: surethan37/final_task1
         imagePullPolicy: Always
         ports:
         - containerPort: 80
